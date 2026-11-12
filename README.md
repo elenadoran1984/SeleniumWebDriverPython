@@ -1,71 +1,66 @@
-# Selenium WebDriver Automation with Python
+# Selenium WebDriver with Python
 
-A beginner-friendly web automation project using **Python, Selenium WebDriver and Pytest**.
+This repository contains my exercises and practice projects from the **Test Automation University – Introduction to Selenium WebDriver with Python** course.
 
-The project automates a DuckDuckGo search and validates the search results using the **Page Object Model (POM)** design pattern.
+The exercises focus on learning web automation with Python and Selenium WebDriver, using Pytest and the Page Object Model (POM) design pattern.
 
-## Technologies
+## Requirements
 
 - Python
 - Selenium WebDriver
 - Pytest
 - Pipenv
-- Page Object Model (POM)
+- Chrome and/or Firefox
 
-## Project Structure
+## Setup
 
-```text
-SeleniumWebDriverPython/
-├── pages/
-│   ├── search.py
-│   └── result.py
-├── tests/
-│   ├── conftest.py
-│   └── test_search.py
-├── config.json
-├── Pipfile
-├── Pipfile.lock
-└── README.md
-```
-
-## Features
-
-- Automated DuckDuckGo search
-- Page Object Model implementation
-- Pytest fixtures
-- Chrome, Firefox and Headless Chrome configuration
-- Explicit and implicit waits
-- Selenium Manager for automatic driver management
-
-## Installation
-
-Clone the repository:
+Clone this repository:
 
 ```bash
 git clone https://github.com/elenadoran1984/SeleniumWebDriverPython.git
 cd SeleniumWebDriverPython
 ```
 
-## Run Tests
+## Running the Tests
+
+Run the test suite:
 
 ```bash
 pipenv run python -m pytest
 ```
 
-To see test output:
+Run tests with output displayed:
 
 ```bash
 pipenv run python -m pytest -s
 ```
 
-To run parallel tests:
+Run parallel tests:
 
 ```bash
 pipenv run python -m pytest -n 3
 ```
 
+## What I'm Learning
+
+- Selenium WebDriver basics
+- Browser automation
+- Pytest fixtures
+- Page Object Model
+- Browser configuration
+- Explicit and implicit waits
+- Automated test execution
+
+## Learning Resource
+
+Exercises based on the course:
+
+[Test Automation University – Introduction to Selenium WebDriver with Python](https://testautomationu.applitools.com/)
+
+Original course repository:
+
+[Automation Panda – tau-intro-selenium-py](https://github.com/AutomationPanda/tau-intro-selenium-py)
+
 ## Author
 
-**Elena Doran**
-
-[GitHub Repository](https://github.com/elenadoran1984/SeleniumWebDriverPython)
+Elena Doran
